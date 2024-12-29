@@ -2,8 +2,8 @@ const Footer = () => {
     return (
         <>
         <div className="flex">
-        <div className="bg-blue-800/30 h-96 w-1/2 text-right">
-            <div className="mr-16 mt-10 space-y-2">
+        <div className="bg-blue-800/30 w-1/2 text-right">
+            <div className="mr-16 mt-10 py-12 space-y-2">
             <h1 className="font-semibold text-3xl">CONTACT US</h1>
             <p className="font-medium">123 ABS Street, Uni 21, Bangladesh</p>
             <p className="font-medium">+88 123456789</p>
@@ -11,7 +11,7 @@ const Footer = () => {
             <p className="font-medium">Sat - Sun: 10:00 - 23:00</p>
             </div>
         </div>
-        <div className="bg-blue-800/15 h-96 w-1/2">
+        <div className="bg-blue-800/15 py-12 w-1/2">
         <div className="ml-16 mt-10 space-y-2">
             <h1 className="font-semibold text-3xl">FOLLOW US</h1>
             <p className="font-medium">Join us on Social Media</p>    

@@ -1,4 +1,5 @@
 import Banner from "../Components/Banner";
+import CallUs from "../Components/CallUs";
 import Category from "../Components/Category";
 import PopularMenu from "../Components/PopularMenu";
 
@@ -8,6 +9,7 @@ const HomePage = () => {
         <Banner/>
         <Category/>
         <PopularMenu/>
+        <CallUs/>
         </>
     );
 };
