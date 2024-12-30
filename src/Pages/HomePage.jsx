@@ -3,6 +3,7 @@ import CallUs from "../Components/CallUs";
 import Category from "../Components/Category";
 import Featured from "../Components/Featured";
 import PopularMenu from "../Components/PopularMenu";
+import Testimonials from "../Components/Testimonial";
 
 const HomePage = () => {
     return (
@@ -12,6 +13,7 @@ const HomePage = () => {
         <PopularMenu/>
         <CallUs/>
         <Featured/>
+        <Testimonials/>
         </>
     );
 };
