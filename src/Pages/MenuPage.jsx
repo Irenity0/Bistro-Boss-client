@@ -28,17 +28,17 @@ const MenuPage = () => {
         <MenuCategory items={offered}></MenuCategory>
 
         {/* dessert */}
-        <MenuCategory items={dessert} title={'Desserts'} coverImg={dessertBg} paragraph={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea et maxime dolore amet'}></MenuCategory>
+        <MenuCategory items={dessert} title={'dessert'} coverImg={dessertBg} paragraph={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea et maxime dolore amet'}></MenuCategory>
 
         {/* salad */}
-        <MenuCategory items={salad} title={'Salads'} coverImg={saladBg} paragraph={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea et maxime dolore amet'}></MenuCategory>
+        <MenuCategory items={salad} title={'salad'} coverImg={saladBg} paragraph={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea et maxime dolore amet'}></MenuCategory>
 
         
         {/* soup */}
-        <MenuCategory items={soup} title={'Soup'} coverImg={soupBg} paragraph={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea et maxime dolore amet'}></MenuCategory>
+        <MenuCategory items={soup} title={'soup'} coverImg={soupBg} paragraph={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea et maxime dolore amet'}></MenuCategory>
 
         {/* pizza */}
-        <MenuCategory items={pizza} title={'Pizza'} coverImg={pizzaBg} paragraph={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea et maxime dolore amet'}></MenuCategory>
+        <MenuCategory items={pizza} title={'pizza'} coverImg={pizzaBg} paragraph={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea et maxime dolore amet'}></MenuCategory>
         </section>
         </>
     );
